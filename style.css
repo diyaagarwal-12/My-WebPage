@@ -1,0 +1,47 @@
+html{
+    text-align: center;
+}
+#profile{
+    background: linear-gradient(#61075f,#854db3,#f249ef,#fca2da);
+}
+#dp{
+    height:150px;
+    border-radius: 360px;
+}
+h1{
+    font-size:30px;
+    font-family:monospace;
+    
+}
+h2{
+    font-size:50px;
+    font-family:fantasy;
+    
+}
+#painting{
+    height:150px;
+    border-radius: 360px;
+}
+h3{
+    font-size:30px;
+    font-family:monospace;}
+h4{
+    font-size:50px;
+    font-family:fantasy;}
+p{
+   font-size:20px;
+    max-width: 250px;
+    margin-left: 540px;
+}
+.line{
+    width: 450px;
+    height: 6px;
+    margin:8px auto;
+    background-color: black;
+}
+#hobby{
+    background: linear-gradient(#46e36b,#d2f547,#e4fc83,#67eb86,#97f7ad);
+}
+html{
+    background-color:darkcyan
+}
