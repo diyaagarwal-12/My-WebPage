@@ -4,31 +4,62 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
+    <title></title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <ul class="menu">
-    <li class="links">⍟About Me</li>
-    <li class="links">⍟Hobby</li>
-    <li class="links">⍟Favourites</li>
-    <li class="links">⍟Acheivements</li>
-    <li class="links">⍟Contact</li>
+        <li class="links"><a href="#BIO">Home</a></li>
+        <li class="links"><a href="#videos">My Videos</a></li>
+        <li class="links"><a href="#writings">Writings</a></li>
+        <li class="links"><a href="#work">Work</a></li>
+        <li class="links"><a href="#contact">Contact</a></li>
     </ul>
-    <script src="main.js"></script>
-    <section id="profile" class="parallax-container">
-        <div><img src="https://w7.pngwing.com/pngs/51/663/png-transparent-fancy-alphabets-letter-cursive-writing-system-d.png" id="dp"></div>
-        <h1>I Am</h1><br>
-        <h1 id="name">Diya Agarwal</h1><div class="line"></div>
-        <p id="about">This website is going to give you all the information about me.My favourite colour,personality,my acheivments,my hobbies,contact,ets.But i must give you a small introduction about me. As you know i am DIYA AGARWAL.I currently study in LANCER'S CONVENT school,in grade 7th(according to 2021).I was born on 21st june,in year 2009. So according to 2021 i am 12 years old.I am an independent girl who can fight for her rights and is strong, but at the same time i am very close to my loved ones like my family and friends.🙂</p>
+    <section id="welcome" class="parallax-container">
+        <div class="parallax-inner">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg" class="profile" />
+            <h1>I am<br><span id="name"> Tim Berners Lee</span></h1>
+            <h2>I am the founder of WWW:WorldWideWeb</h2>
+        </div>
     </section>
-    <section id="hobby">
-        <h3>My Hobby is</h3><br>
-        <h4>Painting</h4><img src="https://s3-ap-southeast-2.amazonaws.com/cae-wp-user-uploads/app/uploads/2018/12/20100741/Rhonda-Painbrush.jpg" id="painting">
+    <section id="BIO">
+        <h3>HI!</h3>
         <div class="line"></div>
-        <p id="paint">Painting has been a hobby I have embraced for quite some time. Ever since I took the paintbrush and just crafted something on paper, I have never looked back on it. Painting has been a hobby that gives me joy because I can draw my imaginations into an art piece and make the best out of it.Painting is one of those hobbies that gives me an opportunity to relax, enjoy and learn at the same time. I cannot imagine my life without colours and the essence of a painting lies in its colour schema itself.🙂</p>
+        <p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory. He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford. In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.<br /><br />In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded. In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users. The Web was first used for e-commerce in 1997.</p>
     </section>
-</body>
 
-</html>
+
+    <section id="videos">
+        <h1>Videos</h1>
+        <div class="line"></div>
+        <iframe width="724" height="409" src="https://www.youtube.com/embed/OM6XIICm_qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <br>
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/3HIlwseTHxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+
+    <section id="work">
+        <h1>Work</h1>
+        <div class="line"></div>
+        <iframe height="700" width="1000" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" frameborder="0"></iframe>
+    </section>
+
+
+    <section id="writings">
+        <h1>Writings</h1>
+        <div class="line"></div>
+        <a class="article" href="https://webfoundation.org/about/vision/history-of-the-web/" target="_blank">
+            History of the Web
+        </a>
+        <br>
+        <br>
+        <a class="article" href="https://www.theguardian.com/technology/2019/mar/12/tim-berners-lee-on-30-years-of-the-web-if-we-dream-a-little-we-can-get-the-web-we-want" target="_blank">
+            Tim Berners-Lee on 30 years of the world wide web: 'We can get the web we want'
+        </a>
+    </section>
+
+</body></html>
